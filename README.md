@@ -1,14 +1,5 @@
 # Expense Tracker App
 
-React version uses functional components with hooks and the context API
-
-## Usage
-```
-npm install
-
-# Run on http://localhost:3006
-yarn start
-
-# Build for prod
-npm run build
-```
+App keeps track of income and expenses.
+Also it shows balance, expense and income totals. 
+Add, remove items and save it to local storage.
