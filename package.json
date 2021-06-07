@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm run back\" \"npm run front\"",
     "start": "cd back && node server.js",
-    "back": "nodemon server.js --prefix back",
+    "back": "cd back && nodemon -r dotenv/config server.js",
     "front": "npm start --prefix front"
   },
   "repository": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/yulia-grigorenko/expenseTrackerApp#readme",
   "dependencies": {
-    "concurrently": "^6.2.0"
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0"
   }
 }
