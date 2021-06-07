@@ -17,10 +17,10 @@ change config.env file in config folder
  npm run dev
  
  # Backend only
- npm run server
+ npm run back
  
  # Frontend only
- npm run client
+ npm run front
  
  # Build front
  cd front
